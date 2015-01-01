@@ -10,9 +10,9 @@
 		</form>
 		<?php
 		//self-referential 
-  		if (isset($_POST["text"]) && !empty($_POST["text"]))
-  		echo "Voila! Like magic, you've submitted: ".$_POST["text"].".";
-  		else echo " ";   
+  	       		if (isset($_POST["text"]) && !empty($_POST["text"]))
+  		         echo "Voila! Like magic, you've submitted: ".$_POST["text"].".";
+  		 	else echo " ";   
 		?>
 	</body>
 </html>
